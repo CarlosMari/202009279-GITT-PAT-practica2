@@ -1,7 +1,4 @@
-element.style {
-  color: red;
-  font-size: 12px;
-}
+
 
 body {
     margin: 0;
@@ -28,6 +25,7 @@ header {
 a {
   text-decoration: none;
   color: #fff;
+  margin-left: 2%;
 }
 nav {
   text-align: center;
@@ -42,4 +40,17 @@ nav {
   transition: all 0.3s ease;
 }
 
+#MyWorkText {
+  float: left;
+  text-align: left;
+  width: 60%;
+
+}
+
+#MyWorkImage {
+  float: left;
+  margin-right: 5%;
+  text-align: right;
+  width: 10%;
+}
 
