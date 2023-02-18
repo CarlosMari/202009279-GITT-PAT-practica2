@@ -1,0 +1,148 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    max-width: 80vw;
+    left: 10vw;
+    right: 10vw;
+    top: 10%;
+}
+
+.form{
+    position: relative;
+    max-width: 30vw;
+    font-weight: 400;
+}
+
+.form-control, textarea{
+    max-width: 30vw;
+    background-color: #EEEEEE;
+    color: #222831;
+}
+
+.submitbutton{
+    margin-top: 15px;
+    height: 34px;
+    width: 30vw;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+
+
+.altbutton{
+    width: 30vw;
+    height: 34px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+
+.send-text{
+    display: block;
+    margin-top: 10px;
+    font: 700 12px 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+.altbutton:hover{
+    transform: translate3d(0px, -29px, 0px);
+}
+
+.contact-container{
+    max-width: 30vw;
+}
+
+.contact-list{
+    list-style-type: none;
+    margin-left: 0;
+    
+}
+
+.list-item{
+    line-height: 4;
+    color: #EEEEEE;
+}
+
+.contact-text{
+   font: 300 18px 'l';
+   letter-spacing: 1.9px;
+   color: #EEEEEE;
+
+}
+
+.place{
+    margin-left: 62px;
+}
+
+.phone{
+    margin-left: 56px;
+}
+
+.gmail{
+    margin-left: 53px;
+}
+
+.contact-text a{
+    color: #EEEEEE;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.contact-text a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media-list{
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    width: 30vw;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.social-media-list li a {
+    color: #EEEEEE;
+  }
+
+  .social-media-list li {
+    position: relative; 
+    display: inline-block;
+    height: 3vw;
+    width: 4.5vh;
+    line-height: 3vw;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27,27,27);
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+  }
+
+  .social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3vw;
+    height: 4.5vh;
+    line-height: 4.3vw;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:hover {
+    background-color: #fff; 
+  }
+  
+  .social-media-list li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  }
+  .social-media-list li:hover a {
+    color: #000;
+  }
+  

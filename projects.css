@@ -1,0 +1,43 @@
+.sampleproject{
+    background-color: #393E46;
+    border: 1px solid #EEEEEE;
+    color: #EEEEEE;
+    position: relative;
+    left:10%;
+    right:10%;
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+    height: 50%;
+    float: left;
+    display: flex;
+    animation-name: slide;
+    animation-duration: 1s;
+    z-index: .9;
+}
+
+
+.sampleproject:hover{
+    z-index: .8;
+    background-color: #00ADB5;
+    transform: scale3d(1.1, 1.1, 1.1);
+    
+}
+
+
+.samplecontent{
+    float: left;
+    padding: 20px;
+    
+}
+
+.projectimage{
+    border: 1px solid #ccc;
+}
+
+
+@keyframes slide {
+    from{margin-top:-100%;}
+    to{margin-left: 0%;}
+    
+  }
