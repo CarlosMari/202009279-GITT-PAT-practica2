@@ -74,6 +74,7 @@ header{
       position: absolute;
       background-color: rgb(93, 53, 53,0.3);
       backdrop-filter: blur(5px);
+      /*bluur puede no funcionar correctamente en algun navegador por eso utilzuiamos 2 tipos*/
       -webkit-backdrop-filter: blur(5px);
       width: 100%;
       height: 100vh;
