@@ -146,3 +146,82 @@
     color: #000;
   }
   
+  @media screen and (max-width: 900px){
+    .form{
+        position: relative;
+        max-width: 80vw;
+        font-weight: 400;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        max-width: 80vw;
+        left: 10vw;
+        right: 10vw;
+        top: 10%;
+    }
+
+    .form-control, textarea{
+        max-width: 80vw;
+        background-color: #EEEEEE;
+        color: #222831;
+    }
+    .submitbutton{
+        margin-top: 15px;
+        height: 34px;
+        width: 80vw;
+        overflow: hidden;
+        transition: all .2s ease-in-out;
+    }
+
+    .altbutton{
+        width: 80vw;
+        height: 34px;
+        overflow: hidden;
+        transition: all .2s ease-in-out;
+    }
+
+    .social-media-list li {
+        position: relative; 
+        display: flex;
+        flex-direction: row;
+        height: 3vh;
+        width: 25vw;
+        line-height: 3vw;
+        border-radius: 50%;
+        color: #fff;
+        background-color: #222831;
+        cursor: pointer; 
+        transition: all .2s ease-in-out;
+        float: left;
+      }
+
+      .social-media-list{
+        justify-content: center;
+        float: left;
+        position: relative;
+        font-size: 2em;
+        text-align: center;
+        width: 100vw;
+        padding: 0;
+    }
+
+    .contact-container{
+        max-width: 80vw;
+    }
+
+    .gmail{
+        font-size: .4em;
+        margin-left: 2em;
+    }
+
+    .phone{
+        font-size: .7em;
+        margin-left: 3em;
+    }
+
+    
+  }
