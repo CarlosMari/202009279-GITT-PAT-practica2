@@ -52,7 +52,63 @@
 
 }
 
+.projecttable{
+    position: relative;
+    float: left;
+    width: 90vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #222831;
+    color: #EEEEEE;
+    font-weight: 600;
+    max-height: 20vh;
+    left: 2.5vh;
+    right: 5%;
+    top: 1.5vh;
 
+    margin-bottom: 3em;
+}
+.trow{
+    border: 1px solid #ccc;
+    display: block;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: ccc;
+}
+
+.trow :hover{
+    transform: scale3d(1.05, 1.05, 1.05);
+    background-color: #00ADB5;
+    color: #EEEEEE;}
+
+.col1{
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+    color: ccc;
+}
+
+.col2{
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+.col2{
+    width: 40vw;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.tabledata{
+    background-color: #393E46;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 @keyframes slide {
     0%{transform: translatex(-100%);}
@@ -93,4 +149,6 @@
         
     }
 
+    
+    
   }
