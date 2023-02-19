@@ -1,5 +1,5 @@
-#Práctica 2
-##Programación de aplicaciones telemáticas
+# Práctica 2
+## Programación de aplicaciones telemáticas
 ## Carlos Marí Noguera
 
 Durante la práctica se ha diseñado una página WEB mediante el uso de HTML y CSS, con la opciónn de utilizar Bootstrap para uno de los elementos del portal.
