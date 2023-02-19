@@ -11,4 +11,5 @@ La página diseñada debe incorporar los siguientes elementos
 - Formularios Web
 
 La página debe ser desplegada en [Github Pages](https://carlosmari.github.io/202009279-GITT-PAT-practica2/index.html) 
-
+Como se indica en la página toda la información y imagenes son simples placeholders.
+Se ha intentado hacer que la página sea igual de utilizable tanto en móvil como en ordenador para poder acceder a un mayor público.
