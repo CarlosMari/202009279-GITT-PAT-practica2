@@ -52,6 +52,11 @@
 
 }
 
+.proyectos{
+    position: relative;
+    top: 2.5em;
+}
+
 .projecttable{
     position: relative;
     float: left;
@@ -61,12 +66,12 @@
     background-color: #222831;
     color: #EEEEEE;
     font-weight: 600;
-    max-height: 20vh;
+    max-height: 15vh;
     left: 2.5vh;
     right: 5%;
-    top: 1.5vh;
+    top: 2.5em;
 
-    margin-bottom: 3em;
+    margin-bottom: 4em;
 }
 .trow{
     border: 1px solid #ccc;
