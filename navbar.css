@@ -101,13 +101,13 @@ header{
   */
   .menu-icon{
     display: block;
-
+    top: 4vh;
   }
 
   .navbar .logo {
     position: absolute;
     z-index: 0.5;
-    top: 50px;
+    top: 3vh;
     left: 50px;
   }
 

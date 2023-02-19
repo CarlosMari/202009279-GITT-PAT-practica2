@@ -5,6 +5,7 @@
     color: #EEEEEE;
     position: relative;
     min-width: 20%;
+    max-width: 80%;
     width: 40em;
     margin-bottom: 2.5%;
     margin-left: 2.5%;
@@ -19,8 +20,7 @@
     max-height: 20em;
 }
 
-.proyectos{
-}
+
 
 .sampleproject:hover{
     z-index: .8;
@@ -45,7 +45,7 @@
     position: relative;
     border: 1px solid #ccc;
     width: auto;
-    max-height: 15em;
+    max-height: 20vh;
     margin-top: 15%;
     margin-left: 5%;
     align-items: center;
@@ -58,4 +58,41 @@
     from{margin-left:-100%;}
     to{margin-left: 0%;}
     
+  }
+
+  @media screen and (max-width: 900px){
+    .sampleproject{
+        padding: auto;
+        background-color: #393E46;
+        border: 1px solid #EEEEEE;
+        color: #EEEEEE;
+        position: relative;
+        left: 5vw;
+        max-width: 90vw;
+        width: 40em;
+        margin-bottom: 2.5%;
+        margin-left: 2.5%;
+    
+        height: 50%;
+        float: left;
+        display: flex;
+        animation-name: slide;
+        animation-duration: 1s;
+        z-index: .9;
+        
+        max-height: 25vh;
+    }
+
+    .samplecontent{
+        position: relative;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        overflow-y: scroll;
+        float: left;
+        width: 100%;
+        font-size: .75em;
+        
+    }
+
   }
