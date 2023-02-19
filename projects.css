@@ -1,43 +1,60 @@
 .sampleproject{
+    padding: auto;
     background-color: #393E46;
     border: 1px solid #EEEEEE;
     color: #EEEEEE;
     position: relative;
-    left:10%;
-    right:10%;
-    padding: 10px;
-    margin: 10px;
-    width: 40%;
+    min-width: 20%;
+    width: 40em;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+
     height: 50%;
     float: left;
     display: flex;
     animation-name: slide;
     animation-duration: 1s;
     z-index: .9;
+    
+    max-height: 20em;
 }
 
+.proyectos{
+}
 
 .sampleproject:hover{
     z-index: .8;
     background-color: #00ADB5;
-    transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.05, 1.05, 1.05);
     
 }
 
 
 .samplecontent{
+    position: relative;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow-y: scroll;
     float: left;
-    padding: 20px;
+    width: 100%;
     
 }
 
 .projectimage{
+    position: relative;
     border: 1px solid #ccc;
+    width: auto;
+    max-height: 15em;
+    margin-top: 5%;
+    margin-left: 5%;
+
 }
 
 
+
 @keyframes slide {
-    from{margin-top:-100%;}
+    from{margin-left:-100%;}
     to{margin-left: 0%;}
     
   }
