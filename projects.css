@@ -46,8 +46,9 @@
     border: 1px solid #ccc;
     width: auto;
     max-height: 15em;
-    margin-top: 5%;
+    margin-top: 15%;
     margin-left: 5%;
+    align-items: center;
 
 }
 
