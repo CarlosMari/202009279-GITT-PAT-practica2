@@ -19,3 +19,4 @@ En la página se han incluido diferentes elementos de bootstrap, en concreto tip
 Se ha utilizado font awesome 4, para incluir diferentes iconos en la página de contacto.
 
 Todos los demás elementos han sido diseñados mediante el uso de CSS.
+

@@ -1,0 +1,38 @@
+body{
+    background-color: red;
+}
+
+.victim{
+    animation-name: play;
+    animation-duration: 4s;
+    
+
+}
+
+@keyframes play{
+    0%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: rotate(180deg);
+        
+    }
+
+    55%{
+        transform: scale3d(1.5, 1.5, 1.5);
+        /*transform: translateX(100%);*/
+    }
+
+    100%{
+        
+        transform: translateX(100%);
+    }
+
+
+}
+
+
+.victim :hover{
+    transform: rotate3d(90deg, 90deg, 90deg);
+}
