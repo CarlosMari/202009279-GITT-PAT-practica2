@@ -1,3 +1,7 @@
+# Práctica 3
+Para la práctica 3 se ha implementado la conexión con una API, de esta manera podrmos añadir información a nuestra página web. Se ha implementado una página en la página books.html, se puede acceder desde la página de about me.
+
+
 # Práctica 2
 ## Programación de aplicaciones telemáticas
 ## Carlos Marí Noguera
@@ -19,4 +23,5 @@ En la página se han incluido diferentes elementos de bootstrap, en concreto tip
 Se ha utilizado font awesome 4, para incluir diferentes iconos en la página de contacto.
 
 Todos los demás elementos han sido diseñados mediante el uso de CSS.
+
 
